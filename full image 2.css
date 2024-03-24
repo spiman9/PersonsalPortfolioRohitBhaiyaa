@@ -13,6 +13,9 @@ body {
     margin: 0;
     padding: 0;
 }
+#footer{
+    width: 100vw;
+}
 
 .container h1,
 .container p {
