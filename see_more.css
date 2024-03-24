@@ -17,13 +17,15 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    /* padding: 20px; */
+    /* background-color: blue; */
 }
 
 .image-container {
     position: relative;
     margin: 10px;
     cursor: pointer;
+    /* background-color: blue; */
 }
 
 .image-container img {
@@ -134,6 +136,7 @@ h1 {
 .contact-button-container {
     text-align: center; /* Center the button */
     margin-top: 20px; /* Adjust the space between the image and the button */
+    margin-bottom: 30px;
 }
 
 
@@ -208,7 +211,7 @@ html {
 .copyright {
     width: 100%;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 5px;
     background: #262626;
     font-weight: 300;
     color: white;

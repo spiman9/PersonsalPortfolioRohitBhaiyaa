@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Living Room</title>
     <link rel="stylesheet" href="full image 1.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Font Awesome for icons -->
 </head>
+
 <body>
     <div class="container">
         <h1>Living Room</h1>
@@ -17,19 +20,19 @@
         <p></p>
         <button onclick="goToHomePage()" class="back-button"><i class="fas fa-arrow-left"></i></button>
 
-<script>
-    function goToHomePage() {
-        // window.location.href = "index.html"; // Replace "your-home-page-url.html" with your actual home page URL
-        window.history.go(-1);
-    }
-</script>
+        <script>
+            function goToHomePage() {
+                // window.location.href = "index.html"; // Replace "your-home-page-url.html" with your actual home page URL
+                window.history.go(-1);
+            }
+        </script>
 
         <!-- Add any additional content or styling as needed -->
     </div>
     <div class="contact-button-container">
         <button onclick="redirectToContact()" class="contact-button">Contact Me</button>
     </div>
-    
+
     <div class="copyright">
         <p>2024 Rohit Khanagaonkar. All Rights Reserved <i class="fa-solid fa-heart"></i></p>
     </div>
@@ -40,9 +43,10 @@
             window.history.back();
         }
         function redirectToContact() {
-    window.history.go(-1); // Go back to the previous page
-}
+            window.history.go(-1); // Go back to the previous page
+        }
 
     </script>
 </body>
+
 </html>
