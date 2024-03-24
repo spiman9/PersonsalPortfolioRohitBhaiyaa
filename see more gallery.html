@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="see_more.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://kit.fontawesome.com/9fd88ecf06.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <a href="index.html" class="back-button" onclick="goBack()">
+        <i class="fas fa-arrow-left"></i>
+    </a>
+
+    <h1>Gallery</h1>
+    <div class="container">
+        <div class="image-container" onclick="openModal('imagess/living room 2.jpg', 'Image 1')">
+            <img src="imagess/living room 2.jpg" alt="Image 1">
+            <div class="image-name">Living Room</div>
+        </div>
+        <div class="image-container" onclick="openModal('imagess/Modern Tv Unit.jpg', 'Image 2')">
+            <img src="imagess/Modern Tv Unit.jpg" alt="Image 2">
+            <div class="image-name">Modern Tv Unit</div>
+        </div>
+        <div class="image-container" onclick="openModal('imagess/luxury Bathroom.jpg', 'Image 2')">
+            <img src="imagess/luxury Bathroom.jpg" alt="Image 2">
+            <div class="image-name">Bathroom</div>
+        </div>
+        <div class="image-container" onclick="openModal('imagess/modular kitchen bloom pp.jpg', 'Image 2')">
+            <img src="imagess/modular kitchen bloom pp.jpg" alt="Image 2">
+            <div class="image-name">Modular kitchen</div>
+        </div>
+
+        <!-- Add more image containers as needed -->
+    </div>
+
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal" onclick="closeModal()">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img id="modalImg" src="" alt="Modal Image">
+        </div>
+    </div>
+
+    <script>
+        function openModal(imageSrc, caption) {
+            var modal = document.getElementById('myModal');
+            var modalImg = document.getElementById("modalImg");
+
+            modal.style.display = "flex";
+            modalImg.src = imageSrc;
+        }
+
+        function closeModal() {
+            var modal = document.getElementById('myModal');
+            modal.style.display = "none";
+        }
+    </script>
+    <!-- Add any additional content or styling as needed -->
+    </div>
+    <div class="contact-button-container">
+        <button onclick="redirectToContact()" class="contact-button">Contact Me</button>
+    </div>
+    <footer id="footer">
+        <div class="copyright">
+            <p>2024 Rohit Khanagaonkar. All Rights Reserved <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </footer>
+
+
+    <script>
+        function goBack() {
+            // window.history.back();
+            window.history.go(-1);
+        }
+        function redirectToContact() {
+            window.history.go(-1); // Go back to the previous page
+        }
+        function goToHomePage() {
+            window.location.href = "index.html"; // Replace "your-home-page-url.html" with your actual home page URL
+        }
+    </script>
+</body>
+
+</html>

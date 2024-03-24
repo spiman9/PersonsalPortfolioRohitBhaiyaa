@@ -1,0 +1,137 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Use the same font-family as on your previous page */
+}
+
+body {
+    background-color: #080808; /* Set the background color to match your previous page */
+    margin: 0;
+    padding: 0;
+}
+
+.container h1,
+.container p {
+    color: white; /* Set the text color to white */
+}
+
+.container h1 {
+    text-align: center; /* Center align the text */
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px; /* Adjust this value as needed */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.image-container {
+    border-radius: 10px; /* Adjust the border radius as needed */
+    overflow: hidden; /* Clip the image to the rounded border */
+}
+
+.full-image {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto;
+    display: block;
+}
+
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #ff004f; /* Set the background color to the same color as the "See more" button */
+    color: #fff; /* Set the text color to white */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a transition for the background color change */
+}
+
+.back-button:hover {
+    background-color: #d4004f; /* Change the background color on hover */
+}
+
+.back-button:active {
+    background-color: #d4004f; /* Change the background color when clicked */
+    transform: scale(0.95); /* Optional: Add a slight scale effect */
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px; /* Adjust this value as needed */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.image-container {
+    border-radius: 10px; /* Adjust the border radius as needed */
+    overflow: hidden; /* Clip the image to the rounded border */
+}
+
+.full-image {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto;
+    display: block;
+}
+
+.contact-button-container {
+    text-align: center; /* Center the button */
+    margin-top: 20px; /* Adjust the space between the image and the button */
+}
+
+
+.contact-button {
+    background-color: #ff004f; /* Set the initial background color */
+    color: white; /* Set the initial text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a transition for the background color */
+}
+
+.contact-button:hover {
+    background-color: rgba(0, 0, 0, 0); /* Set the background color to transparent on hover */
+    color: white; /* Set the text color to white on hover */
+    border: 1px solid #ff004f; /* Add a border on hover */
+}
+
+.contact-button:active {
+    transform: scale(0.95); /* Add a slight scale effect when clicked */
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    background: #262626;
+    font-weight: 300;
+    color: white;
+    margin-top: 20px;
+}
+.copyright i{
+    color: #ff004f;
+}
+
+
+
+
